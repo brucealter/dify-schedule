@@ -462,3 +462,5 @@ export class WorkflowClient extends DifyClient {
     }
   }
 }
+//解决青龙面板报错：[MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///ql/data/scripts/leochen-g_dify-schedule/sdk/dify.js is not specified and it doesn't parse as CommonJS
+export default WorkflowClient;
